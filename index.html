@@ -12,20 +12,32 @@
           rel="stylesheet"
     >
 </head>
-
 <body>
     <div id="home">
-        <header class="page-header wrapper">
+        <header class="wrapper">
             <h1>ToDoリスト</h1>
         </header>
-        <div class="home-content wrapper">
-            <h2 class="page-title">タスクを記入して追加</h2>
-            <textarea class="answer_area b-100 my-3 text-black" placeholder="ここにタスクを記入"></textarea>
-            <button class="text-black">追加</button>
+        <div class=" wrapper">
+            <h2 class="home-content ">タスクを記入して追加</h2>
+            <textarea class="home-content answer_area b-100 my-3" placeholder="ここにタスクを記入"></textarea>
+            <button class="addButton b-100 my-3" onclick="hoge()">追加</button>
+            <ul id="list">
+                <li id="item1">リスト1</li>
+                <li id="item2">リスト2</li>
+                <li id="item3">リスト3</li>
+            </ul>
         </div>
+        
         <!--/.home-content -->
     </div>
+    
+    
     <!--#home -->
+    <script>
+        const hoge = () =>{
+            alert('ボタンを押しました');
+        }
+    </script>
 </body>
 
 </html>
