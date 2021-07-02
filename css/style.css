@@ -34,9 +34,14 @@ html {
     border: 2px solid #bbb;
     float: left;
 }
-#list{
-    margin: 10% 0% 0% 20%;;
-    list-style-position: outside;
+.topCheckBox{
+    display: block;
+    margin: 8% 0% 0% 20%;
+    /* margin: right auto; */
+}
+.secondCheckBox{
+    display: block;
+    margin: 2% 0% 0% 20%;
 }
 
 
