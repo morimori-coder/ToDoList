@@ -34,5 +34,7 @@ const delItem = () => {
 
     for(const delLabel of checkedBoxLabels){
         delLabel.remove();
+        number--;
+        
     }
 }
