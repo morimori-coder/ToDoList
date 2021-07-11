@@ -1,4 +1,5 @@
 let number = 0;
+let tasks = new Array();
 
 const addItem = () => {
     number++;
@@ -15,6 +16,8 @@ const addItem = () => {
     label.appendChild(document.createTextNode(inputText));
 
     document.getElementsByName('checkBoxForm')[0].appendChild(label);
+
+    tasks.push(new Task(inputText));
 }
 
 const delItem = () => {

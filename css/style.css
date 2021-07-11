@@ -13,7 +13,7 @@ html {
 /*HOME
 ---------------------------------*/
 #home{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .home-content{
     text-align: center;
@@ -28,14 +28,22 @@ html {
     float: left;
 }
 .addButton{
+    
     height: 1.8rem;
     width: 10%;
     border: 2px solid #bbb;
     float: left;
 }
+.saveToDB{
+    margin-top: 1%;
+    margin-left: 70%;
+    height: 1.8rem;
+    width: 20%;
+    border: 2px solid #bbb;
+}
 
 .border{
-    margin: 9% 0% 0% 0%;
+    margin: 5% 0% 0% 0%;
     border: 5px dotted tomato;
 }
 
